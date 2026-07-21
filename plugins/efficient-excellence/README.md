@@ -5,7 +5,7 @@ Opus triages every request and routes each sub-task to the cheapest tier that st
 | Sub-task | Tier |
 |---|---|
 | Deterministic — collection, parsing, merge, counting, dedup, tests | **plain code, no model** (0 tokens) |
-| Bulk reading, discovery | Haiku (low) — scout |
+| Read-only discovery, find/trace across files | Sonnet 5 (low) — scout |
 | Tables, formatting, simple Q&A, routine edits, tests | Sonnet 5 (medium) — worker |
 | Triage, synthesis, hard/correctness-sensitive code | Opus 4.8 (xhigh) — hub · heavy-worker |
 | Plans, architecture, adversarial & methodology review, complex synthesis | Fable (xhigh) — planner |
