@@ -11,4 +11,4 @@ Opus triages every request and routes each sub-task to the cheapest tier that st
 | Plans, architecture, adversarial & methodology review, complex synthesis | Fable (xhigh) — planner |
 | Verification of important work | Opus / Fable (xhigh) — reviewer |
 
-Bundled: the five agents above and a `routing` skill carrying the triage policy (tier-zero-first, verify-by-reading, checkpoint-long-runs, verbatim-request briefs, EVIDENCE/ESCALATE contracts). Set once per person after install: default `model: opus` + `effortLevel: xhigh` (and, optionally, the cost meter). See the marketplace README for install/setup, and `docs/worked-example.md` for measured token results from a real run.
+Bundled: the five agents above and a `routing` skill carrying the triage policy (tier-zero-first, verify-by-reading, checkpoint-long-runs, verbatim-request briefs, EVIDENCE/ESCALATE contracts). Set once per person after install: default `model: opus` + `effortLevel: xhigh` (and, optionally, the cost meter). See the marketplace README for install/setup, `docs/how-it-works.md` for the full technical explainer, and `docs/worked-example.md` for measured token results from a real run.
